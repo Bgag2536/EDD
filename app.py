@@ -11,13 +11,13 @@ app = Flask(__name__) # Runs app
 def unlockRack():
     return render_template('EDDSite.html') #calls html
 
-@app.route('/OpeningRackOne') # opens site not generated yet but sends command and opens rack
+@app.route('/openingrackone')
 def openingRackOne():
-   return openRackOne() # defined in action.py with code to activate motors
+   return render_template('openRackOne.html') 
 
-@app.route('/OpeningRackTwo')
-def OpeningRackTwo():
-   return openRackOne()
+@app.route('/openingracktwo')
+def openingRackTwo():
+   return render_template('openRackTwo.html')
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
