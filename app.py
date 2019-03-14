@@ -1,5 +1,4 @@
-from flask import Flask, request, render_template, jsonify  
-from flask_restful import Resource, Api
+from flask import *
 import Action
 from Action import openRackOne
 from Action import openRackTwo
