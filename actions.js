@@ -1,8 +1,4 @@
-window.onload = init();
-
-function init(){
-
-}
+window.onload = runPython();
 
 function runPython(){
     $(document).ready(function(){
@@ -15,7 +11,7 @@ function runPython(){
                             alert("SUCCESS")
                         } 
                         else if (a.status == 404){
-                            alert("you fucked up")
+                            alert("you goofed up")
                         }
                         else alert("HTTP ERROR")
                     }
