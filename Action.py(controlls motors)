@@ -23,7 +23,7 @@ def openRackOne():
             ab.off()
             m1.stop 
     except:
-        print('you fucked up')
+        print('you goofed up')
 
 def openRackTwo():
     m2 = PiMotor.Motor("MOTOR2",1)
@@ -46,5 +46,5 @@ def openRackTwo():
             ab.off()
             m1.stop 
     except:
-        print('you fucked up')
+        print('you goofed up')
         
