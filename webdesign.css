@@ -1,0 +1,30 @@
+body, html{
+    background-image: linear-gradient(to bottom right, purple, white)
+}
+.header{
+    background-color: #c4c4c4;
+    width: 80%;
+    margin: auto;
+    border-style: solid;
+    border-color: black ;
+    border-width: 5px;
+    text-align: center 
+}
+.rackOne{
+    border: dotted black 5px;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.rackTwo{
+    border: dotted black 5px;
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+    
+}
+.credits{
+    text-align: center;
+    font: sans-serif;
+    font-size: .75em;
+}
